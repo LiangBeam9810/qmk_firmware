@@ -1,11 +1,11 @@
 {
-    "keyboard_name": "Final80V2",
+    "keyboard_name": "Fin80",
     "manufacturer": "Liang",
     "url": "",
     "maintainer": "Liang",
     "usb": {
-        "vid": "0xEA0B",
-        "pid": "0xEA75",
+        "vid": "0xAAA6",
+        "pid": "0xAAA9",
         "device_version": "0.0.1"
     },
     "matrix_pins": {
@@ -15,7 +15,7 @@
     "diode_direction": "ROW2COL",
     "encoder": {
         "rotary": [
-            {"pin_a": "B4", "pin_b": "B5", "resolution": 4}
+            {"pin_a": "B5", "pin_b": "B4", "resolution": 4}
         ]
     },
     "tapping": {
