@@ -15,9 +15,10 @@ ENCODER_MAP_ENABLE = yes    #Enable encoder multy map
 
 BACKLIGHT_ENABLE = no       # Enable keyboard backlight functionality
 RGBLIGHT_ENABLE = yes       # Enable keyboard RGB underglow
+WPM_ENABLE = yes
 
-# OLED_ENABLE = yes		   # Enable OLED driver
+OLED_ENABLE = yes		   # Enable OLED driver
 # OLED_DRIVER = ssd1306	   # Enable ssd1306 OLED driver
-# OLED_TRANSPORT = i2c 	   # Enable OLED i2c 
+# OLED_TRANSPORT = i2c 	   # Enable OLED i2c
 
 DFU_ARGS = -d 0483:df11 -a 0 -s 0x08000000:leave

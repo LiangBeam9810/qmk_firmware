@@ -1,5 +1,5 @@
 {
-    "keyboard_name": "Fin80",
+    "keyboard_name": "Final80V2",
     "manufacturer": "Liang",
     "url": "",
     "maintainer": "Liang",
@@ -28,6 +28,9 @@
     "ws2812": {
         "pin": "A7",
         "driver": "pwm"
+    },
+    "bootmagic": {
+        "matrix": [0, 0]
     },
     "rgblight": {
         "led_count": 100,

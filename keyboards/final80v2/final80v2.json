@@ -1,11 +1,9 @@
 {
-  "name": "Fin80",
+  "name": "Final80V2",
   "vendorId": "AAA6",
   "productId": "AAA9",
-  "lighting": {
-    "extends": "qmk_rgblight",
-    "keycodes": "qmk"
-  },
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgblight"],
   "matrix": {"rows": 6, "cols": 15},
   "layouts": {
     "keymap":
